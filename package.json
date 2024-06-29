@@ -1,0 +1,48 @@
+{
+  "name": "node-express-boilerplate",
+  "version": "1.0.0",
+  "description": "Node Auth Rest API is an open-source authentication REST API Back-end and API application boilerplate built with Node.js, Express, and MongoDB",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "boilerplate"
+  ],
+  "author": "wEbCoAdEr",
+  "license": "MIT",
+  "dependencies": {
+    "@logtail/node": "^0.4.21",
+    "@logtail/winston": "^0.4.21",
+    "@sentry/node": "^7.100.0",
+    "aws-sdk": "^2.1603.0",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.0.0",
+    "http-status": "^1.7.3",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.30.1",
+    "mongoose": "^7.2.4",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.11",
+    "nodemailer-express-handlebars": "^6.1.2",
+    "socket.io": "^4.6.2",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}
