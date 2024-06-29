@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 # Node Auth Rest API
@@ -325,3 +326,6 @@ This project is licensed under the MIT License. See the [LICENSE](https://chat.o
 - [Joi](https://joi.dev/)
 - [Helmet](https://helmetjs.github.io/)
 - [Cors](https://www.npmjs.com/package/cors)
+=======
+# SDN301_BE
+>>>>>>> 10fedfd49a3076b86a9291d9cdf3fcd4f2298ff4
